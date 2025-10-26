@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hello from Server</h1>
+    <!-- <script>
+      fetch("http://127.0.0.1:3000/users")
+        .then((data) => {
+          return data.json();
+        })
+        .then((data) => {
+          let div = document.createElement("div");
+          document.body.append(div);
+          let username = document.createElement("h1");
+          console.log(data);
+          username.innerText = data.data[0].username;
+          div.append(username);
+        });
+    </script> -->
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
